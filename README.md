@@ -1,2 +1,1 @@
-# tindog
-A Tinder parody for your furry little creatures
+TinDog Starting Files
