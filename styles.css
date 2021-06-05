@@ -214,9 +214,6 @@ p {
 
 @media (max-width:991px) {
 
-  body {
-    font-size: 2vh;
-  }
 
   .big-heading {
     font-size:7vh;
