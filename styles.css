@@ -20,7 +20,7 @@ p {
 
 .big-heading {
   font-family: "Montserrat";
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   line-height: 1.5;
   font-weight: 900;
   text-align: left;
@@ -28,7 +28,7 @@ p {
 
 .big-heading-two {
   font-family: "Montserrat";
-  font-size: 3.25rem;
+  font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
   text-align: center;
@@ -63,7 +63,7 @@ p {
 /* Navigation Bar */
 
 .img-logo {
-  width:65px;
+  width:60px;
   margin-right: 5px;
 
 }
@@ -74,7 +74,6 @@ p {
 
 .navbar-brand {
   font-family: 'Ubuntu';
-  font-size: 2.5rem;
   font-weight: 700;
   margin-right:0;
 }
@@ -84,7 +83,7 @@ p {
 }
 
 .nav-link {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   font-family: 'Montserrat';
   font-weight:300;
 }
@@ -131,9 +130,9 @@ p {
   position:relative;
 }
 
-.feature-title {
+/* .feature-title {
   font-size: 1.5rem;
-}
+} */
 
 .feature-box {
   padding: 4.5%;
@@ -157,7 +156,7 @@ p {
 }
 
 .testimonial-text {
-  font-size: 3.65rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
@@ -184,7 +183,7 @@ p {
 }
 
 .price-text {
-  font-size:3rem;
+  font-size:1.5rem;
   line-height:1.5;
 }
 
@@ -192,44 +191,52 @@ p {
   padding: 3% 2%;
 }
 
-
 /* Footer Section  */
 
 .social-icon {
   margin:20px 10px;
 }
 
-/* MEDIA BREAKS */
-
-/* Desktops */
-
 @media (max-width:1267px) {
   .title-image {
-    width:30%;
+    width:32%;
     position:absolute;
-    right:10%;
+    right:18%;
   }
-
-
 }
 
 @media (max-width:1155px) {
   .title-image {
-    width:30%;
+    width:32%;
     position:absolute;
-    right:10%;
+    right:15%;
   }
-
 }
-
-/* Laptops */
 
 @media (max-width:991px) {
 
+  .big-heading {
+    font-size:2rem;
+  }
+
+  .big-heading-two {
+    font-size:1.5rem;
+  }
+
+
+  #testimonial {
+    font-size:2rem;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
   .title-image {
-    width:50%;
+    width:60%;
     position:static;
     transform: rotate(0);
+    text-align:center;
   }
 
   .col-lg-6 {
@@ -241,76 +248,23 @@ p {
  }
 
  .press-logo {
-   width: 15%;
+   width: 30%;
    margin: 20px 20px 50px;
  }
 
- .testimonial-text {
-   font-size:2rem;
- }
-
- }
-
-/* Tablets */
-
-@media (max-width:501px) {
-   .navbar  {
-     flex-direction:column;
-     align-items: center;
-     padding-bottom: 50px;
-   }
-
-   .navbar-brand {
-     padding:10px 0;
-   }
-
-   /* #testimonial {
-     font-size:1rem;
-   } */
-
-   .testimonial-text {
-     font-size:1rem;
-     text-align:center;
-   }
-
-   .price-text {
-     font-size:2rem;
-   }
-
-   .big-heading {
-     font-size:2rem;
-     text-align:center;
-   }
-
 }
 
-/* Mobile */
-
-@media (max-width:378px) {
+@media (max-width:352px) {
   .navbar  {
-    flex-direction:column;
-    align-items: center;
-    padding-bottom: 50px;
+    flex-direction: column;
   }
-  .img-logo {
-    width:10vw;
-    margin-right: 5px;
 
+  #testimonial {
+    font-size:1rem;
   }
-/* .big-heading {
-  font-size:2.5rem;
-} */
 
-.big-heading-two {
-  font-size:2rem;
-}
- .section-heading {
-   font-size:2rem;
- }
-
- .testimonial-text {
-   font-size:.7em;
-   text-align:center;
- }
+  .section-heading {
+    font-size: 1.2rem;
+  }
 
 }
