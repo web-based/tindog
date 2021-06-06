@@ -235,6 +235,7 @@ p {
   .section-heading {
     font-size: 5vh;
   }
+
   .title-image {
     text-align:center;
   }
@@ -266,10 +267,4 @@ p {
 .price-text {
   font-size: 2rem;
 } */
-  }
-
-  @media (max-width:460px) {
-    .section-heading {
-      font-size: 5vh;
-    }
   }
