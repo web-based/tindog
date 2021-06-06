@@ -246,21 +246,25 @@ p {
 }
 
 
-@media (max-width:320px) {
+@media (max-width:355px) {
   .big-heading-two {
     font-size:1rem;
   }
 
-  .big-heading {
+  /* .big-heading {
     font-size:1rem;
   }
 
 .section-heading {
   font-size: 1rem;
-}
+} */
 
 .button {
   font-size:0;
+}
+
+.navbar {
+  flex-direction:column;
 }
 
 }
