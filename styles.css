@@ -64,7 +64,8 @@ p {
 
 .img-logo {
   width:60px;
-  padding:0 10px;
+  margin-right: 5px;
+
 }
 
 .navbar {
@@ -75,6 +76,7 @@ p {
   font-family: 'Ubuntu';
   font-size: 2.5rem;
   font-weight: 700;
+  margin-right:0;
 }
 
 .nav-item {
@@ -117,10 +119,10 @@ p {
 /* Title Image */
 
 .title-image {
-  width: 25%;
   transform: rotate(25deg);
   position:absolute;
   right:25%;
+  margin-top:10px;
 }
 
 /* Feature Section */
@@ -178,7 +180,7 @@ p {
 /* Pricing Section*/
 
 #pricing {
-  padding: 100px;
+  padding: 50px;
 }
 
 .price-text {
@@ -214,13 +216,13 @@ p {
 
 @media (max-width:991px) {
 
-
   .big-heading {
-    font-size:7vh;
+    font-size:5vh;
   }
 
   .container-fluid {
     font-size: 3vh;
+
   }
 
   #testimonial {
@@ -247,6 +249,11 @@ p {
 
   .big-heading {
     text-align: center;
+ }
+
+ .press-logo {
+   width: 30%;
+   margin: 20px 20px 50px;
  }
 
   }
