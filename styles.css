@@ -269,6 +269,18 @@ p {
    .navbar-brand {
      padding:10px 0;
    }
+
+   #testimonial {
+     font-size:1rem;
+   }
+
+   .testimonial-text {
+     font-size:5vh;
+   }
+
+   .price-text {
+     font-size:5vh;
+   }
 }
 
 @media (max-width:378px) {
@@ -278,11 +290,6 @@ p {
     padding-bottom: 50px;
   }
 
-  .navbar-brand {
-    padding:10px 0;
-  }
 
-  #testimonial {
-    font-size:1rem;
-  }
+
 }
