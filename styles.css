@@ -20,7 +20,7 @@ p {
 
 .big-heading {
   font-family: "Montserrat";
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
   text-align: left;
@@ -28,7 +28,7 @@ p {
 
 .big-heading-two {
   font-family: "Montserrat";
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
   text-align: center;
@@ -64,8 +64,7 @@ p {
 
 .img-logo {
   width:60px;
-  margin-right: 5px;
-
+  padding:0 10px;
 }
 
 .navbar {
@@ -74,8 +73,8 @@ p {
 
 .navbar-brand {
   font-family: 'Ubuntu';
+  font-size: 2.5rem;
   font-weight: 700;
-  margin-right:0;
 }
 
 .nav-item {
@@ -83,7 +82,7 @@ p {
 }
 
 .nav-link {
-  /* font-size: 1.5rem; */
+  font-size: 1.5rem;
   font-family: 'Montserrat';
   font-weight:300;
 }
@@ -118,10 +117,10 @@ p {
 /* Title Image */
 
 .title-image {
+  width: 20%;
   transform: rotate(25deg);
   position:absolute;
   right:25%;
-  margin-top:10px;
 }
 
 /* Feature Section */
@@ -130,9 +129,9 @@ p {
   position:relative;
 }
 
-/* .feature-title {
+.feature-title {
   font-size: 1.5rem;
-} */
+}
 
 .feature-box {
   padding: 4.5%;
@@ -156,7 +155,7 @@ p {
 }
 
 .testimonial-text {
-  font-size: 1.2rem;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
@@ -179,11 +178,11 @@ p {
 /* Pricing Section*/
 
 #pricing {
-  padding: 50px;
+  padding: 100px;
 }
 
 .price-text {
-  font-size:1.5rem;
+  font-size:3rem;
   line-height:1.5;
 }
 
@@ -199,7 +198,7 @@ p {
 
 @media (max-width:1267px) {
   .title-image {
-    width:32%;
+    width:25%;
     position:absolute;
     right:18%;
   }
@@ -207,29 +206,15 @@ p {
 
 @media (max-width:1155px) {
   .title-image {
-    width:32%;
+    width:28%;
     position:absolute;
-    right:15%;
+    right:13%;
   }
 }
 
 @media (max-width:991px) {
-
-  .big-heading {
-    font-size:2rem;
-  }
-
-  .big-heading-two {
-    font-size:1.5rem;
-  }
-
-
-  #testimonial {
-    font-size:2rem;
-  }
-
-  .section-heading {
-    font-size: 1.5rem;
+  .title-image {
+    text-align:center;
   }
 
   .title-image {
@@ -247,24 +232,15 @@ p {
     text-align: center;
  }
 
- .press-logo {
-   width: 30%;
-   margin: 20px 20px 50px;
- }
+  }
+
+@media (max-width:501px) {
+
 
 }
 
-@media (max-width:352px) {
-  .navbar  {
-    flex-direction: column;
-  }
 
-  #testimonial {
-    font-size:1rem;
-  }
+@media (max-width:320px) {
 
-  .section-heading {
-    font-size: 1.2rem;
-  }
 
 }
