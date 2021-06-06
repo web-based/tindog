@@ -75,6 +75,8 @@ p {
   font-family: 'Ubuntu';
   font-size: 2.5rem;
   font-weight: 700;
+  margin-right: 0;
+  margin-left: 16px;
 }
 
 .nav-item {
@@ -101,7 +103,7 @@ p {
   border-radius: 50%;
   color: white;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 2rem;
   line-height: 35px;
   width: 48px;
   margin:3% auto;
