@@ -235,7 +235,6 @@ p {
   .section-heading {
     font-size: 5vh;
   }
-
   .title-image {
     text-align:center;
   }
@@ -259,12 +258,14 @@ p {
    width: 30%;
    margin: 20px 20px 50px;
  }
+@media (max-width:352px) {
+  .navbar  {
+    flex-direction:column;
+  }
 
-/* .navbar {
-  display:inline;
+  #testimonial {
+    font-size:1rem;
+  }
 }
 
-.price-text {
-  font-size: 2rem;
-} */
   }
