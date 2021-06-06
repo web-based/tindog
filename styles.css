@@ -276,8 +276,10 @@ p {
    .price-text {
      font-size:2rem;
    }
+
    .big-heading {
-     font-size:2.5rem;
+     font-size:2rem;
+     text-align:center;
    }
 
 }
@@ -300,10 +302,10 @@ p {
 } */
 
 .big-heading-two {
-  font-size:2.5rem;
+  font-size:2rem;
 }
  .section-heading {
-   font-size:2.5rem;
+   font-size:2rem;
  }
 
  .testimonial-text {
