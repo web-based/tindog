@@ -270,6 +270,7 @@ p {
 
    .testimonial-text {
      font-size:1rem;
+     text-align:center;
    }
 
    .price-text {
@@ -305,5 +306,9 @@ p {
    font-size:2.5rem;
  }
 
- 
+ .testimonial-text {
+   font-size:.7rem;
+   text-align:center;
+ }
+
 }
