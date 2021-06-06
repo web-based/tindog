@@ -35,7 +35,7 @@ p {
 }
 
 .section-heading {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
@@ -63,8 +63,8 @@ p {
 /* Navigation Bar */
 
 .img-logo {
-  width:60px;
-  padding:0 10px;
+  width:3rem;
+  /* padding:0 10px; */
 }
 
 .navbar {
@@ -155,7 +155,7 @@ p {
 }
 
 .testimonial-text {
-  font-size: 3rem;
+
   line-height: 1.5;
 }
 
@@ -177,12 +177,12 @@ p {
 
 /* Pricing Section*/
 
-#pricing {
+/* #pricing {
   padding: 100px;
-}
+} */
 
 .price-text {
-  font-size:3rem;
+  /* font-size:3rem; */
   line-height:1.5;
 }
 
@@ -231,16 +231,36 @@ p {
   .big-heading {
     text-align: center;
  }
+ .big-heading-two {
+   font-size:1.5rem;
+ }
 
   }
 
 @media (max-width:501px) {
+  .big-heading {
+    font-size:2rem;
+  }
 
 
 }
 
 
 @media (max-width:320px) {
+  .big-heading-two {
+    font-size:1rem;
+  }
 
+  .big-heading {
+    font-size:1rem;
+  }
+
+.section-heading {
+  font-size: 1rem;
+}
+
+.button {
+  font-size:0;
+}
 
 }
