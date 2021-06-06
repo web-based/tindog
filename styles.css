@@ -63,7 +63,7 @@ p {
 /* Navigation Bar */
 
 .img-logo {
-  width:60px;
+  width:65px;
   margin-right: 5px;
 
 }
@@ -209,6 +209,8 @@ p {
     position:absolute;
     right:10%;
   }
+
+
 }
 
 @media (max-width:1155px) {
@@ -217,6 +219,7 @@ p {
     position:absolute;
     right:10%;
   }
+
 }
 
 /* Laptops */
@@ -240,6 +243,8 @@ p {
  .press-logo {
    width: 15%;
    margin: 20px 20px 50px;
+ }
+
  }
 
 /* Tablets */
@@ -266,6 +271,8 @@ p {
    .price-text {
      font-size:2rem;
    }
+
+
 }
 
 /* Mobile */
@@ -276,7 +283,11 @@ p {
     align-items: center;
     padding-bottom: 50px;
   }
+  .img-logo {
+    width:15%;
+    margin-right: 5px;
 
+  }
 
 
 }
