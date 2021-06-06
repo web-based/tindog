@@ -267,3 +267,9 @@ p {
   font-size: 2rem;
 } */
   }
+
+  @media (max-width:460px) {
+    .section-heading {
+      font-size: 5vh;
+    }
+  }
