@@ -244,6 +244,10 @@ p {
    width: 15%;
    margin: 20px 20px 50px;
  }
+ 
+ .testimonial-text {
+   font-size:2rem;
+ }
 
  }
 
@@ -260,9 +264,9 @@ p {
      padding:10px 0;
    }
 
-   #testimonial {
+   /* #testimonial {
      font-size:1rem;
-   }
+   } */
 
    .testimonial-text {
      font-size:2rem;
