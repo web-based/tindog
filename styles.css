@@ -244,7 +244,7 @@ p {
    width: 15%;
    margin: 20px 20px 50px;
  }
- 
+
  .testimonial-text {
    font-size:2rem;
  }
@@ -269,7 +269,7 @@ p {
    } */
 
    .testimonial-text {
-     font-size:2rem;
+     font-size:1rem;
    }
 
    .price-text {
@@ -294,9 +294,9 @@ p {
     margin-right: 5px;
 
   }
-.big-heading {
+/* .big-heading {
   font-size:2.5rem;
-}
+} */
 
 .big-heading-two {
   font-size:2.5rem;
@@ -305,4 +305,5 @@ p {
    font-size:2.5rem;
  }
 
+ 
 }
