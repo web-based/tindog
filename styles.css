@@ -173,7 +173,7 @@ p {
 }
 
 .press-logo {
-  width: 15%;
+  width: 20%;
   margin: 20px 20px 50px;
 }
 
@@ -192,11 +192,15 @@ p {
   padding: 3% 2%;
 }
 
+
 /* Footer Section  */
 
 .social-icon {
   margin:20px 10px;
 }
+
+
+/* MEDIA BREAKS */
 
 @media (max-width:1267px) {
   .title-image {
@@ -216,34 +220,10 @@ p {
 
 @media (max-width:991px) {
 
-  .big-heading {
-    font-size:5vh;
-  }
-
-  .big-heading-two {
-    font-size:4vh;
-  }
-
-  .container-fluid {
-    font-size: 3vh;
-  }
-
-  #testimonial {
-    font-size:3vh;
-  }
-
-  .section-heading {
-    font-size: 5vh;
-  }
   .title-image {
-    text-align:center;
-  }
-
-  .title-image {
-    width:60%;
+    width:50%;
     position:static;
     transform: rotate(0);
-    text-align:center;
   }
 
   .col-lg-6 {
@@ -255,7 +235,7 @@ p {
  }
 
  .press-logo {
-   width: 30%;
+   width: 15%;
    margin: 20px 20px 50px;
  }
 
