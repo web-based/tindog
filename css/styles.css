@@ -1,10 +1,13 @@
-/*font-family: 'Montserrat', sans-serif;
+/*
+font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif;
-font-family: 'Roboto', sans-serif; */
+font-family: 'Roboto', sans-serif;
+*/
 
 body {
   font-family: "Montserrat";
   text-align: center;
+  font-size:1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,7 +38,7 @@ p {
 }
 
 .section-heading {
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
 }
 
@@ -63,9 +66,8 @@ p {
 /* Navigation Bar */
 
 .img-logo {
-  width:60px;
-  margin-right: 5px;
-
+  width:3rem;
+  /* padding:0 10px; */
 }
 
 .navbar {
@@ -76,7 +78,8 @@ p {
   font-family: 'Ubuntu';
   font-size: 2.5rem;
   font-weight: 700;
-  margin-right:0;
+  margin-right: 0;
+  margin-left: 16px;
 }
 
 .nav-item {
@@ -101,9 +104,8 @@ p {
 
 .scrollToTopBtn {
   border-radius: 50%;
-  color: white;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.5rem;
   line-height: 35px;
   width: 48px;
   margin:3% auto;
@@ -119,10 +121,10 @@ p {
 /* Title Image */
 
 .title-image {
+  width: 20%;
   transform: rotate(25deg);
   position:absolute;
   right:25%;
-  margin-top:10px;
 }
 
 /* Feature Section */
@@ -131,9 +133,9 @@ p {
   position:relative;
 }
 
-.feature-title {
+/* .feature-title {
   font-size: 1.5rem;
-}
+} */
 
 .feature-box {
   padding: 4.5%;
@@ -157,7 +159,7 @@ p {
 }
 
 .testimonial-text {
-  font-size: 3rem;
+  font-size:3rem;
   line-height: 1.5;
 }
 
@@ -179,12 +181,12 @@ p {
 
 /* Pricing Section*/
 
-#pricing {
-  padding: 50px;
-}
+/* #pricing {
+  padding: 100px;
+} */
 
 .price-text {
-  font-size:3rem;
+  /* font-size:3rem; */
   line-height:1.5;
 }
 
@@ -198,48 +200,80 @@ p {
   margin:20px 10px;
 }
 
-@media (max-width:1267px) {
+/* @media Breaks */
+
+@media screen and (max-width:1267px) {
   .title-image {
-    width:30%;
+    width:18%;
     position:absolute;
-    right:10%;
+    right:22%;
   }
+
+  .testimonial-text {
+    font-size:2.5rem;
+    line-height: 1.5;
+  }
+
+body {
+  font-size:1rem;
 }
 
-@media (max-width:1155px) {
-  .title-image {
-    width:30%;
-    position:absolute;
-    right:10%;
-  }
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: left;
 }
 
-@media (max-width:991px) {
+.big-heading-two {
+  font-family: "Montserrat";
+  font-size: 2.8rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+}
+
+@media screen and (max-width:1011px) {
+  .title-image {
+    width:25%;
+    position:absolute;
+    right:22%;
+  }
 
   .big-heading {
-    font-size:5vh;
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: center;
   }
 
-  .container-fluid {
-    font-size: 3vh;
+ .col-lg-6 {
+   text-align:center;
+ }
 
-  }
+}
 
-  #testimonial {
-    font-size:3vh;
-  }
-
-  .section-heading {
-    font-size: 7vh;
-  }
+@media screen and (max-width:991px) {
   .title-image {
-    text-align:center;
-  }
-
-  .title-image {
-    width:60%;
-    position:static;
+    width:40%;
+    position:relative;
+    right:0%;
     transform: rotate(0);
+  }
+}
+
+
+@media screen and (max-width:770px) {
+  .title-image {
     text-align:center;
   }
 
@@ -250,10 +284,79 @@ p {
   .big-heading {
     text-align: center;
  }
+ .big-heading-two {
+   font-size:1.7rem;
+ }
 
- .press-logo {
-   width: 30%;
-   margin: 20px 20px 50px;
+ .title-image {
+   width:70%;
+   position:relative;
+   right:-1%;
  }
 
   }
+
+  @media screen and (max-width:500px) {
+    .big-heading {
+      font-size:2rem;
+    }
+
+    .testimonial-text {
+      font-size:2rem;
+      line-height: 1.5;
+    }
+
+    .section-heading {
+      font-size: 2rem;
+      line-height: 1.5;
+    }
+
+  }
+
+@media screen and (max-width:481px) {
+
+
+  .testimonial-text {
+    font-size:1.5rem;
+    line-height: 1.5;
+  }
+
+}
+
+@media screen and (max-width:350px) {
+  .navbar {
+    flex-direction:column;
+    padding-bottom:2.8rem;
+  }
+
+
+@media screen and (max-width:320px) {
+  .big-heading-two {
+    font-size:1.2rem;
+  }
+
+  .big-heading {
+      font-size:1.5rem;
+    }
+
+  .section-heading {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-text {
+    font-size:1rem;
+    line-height: 1.5;
+  }
+
+  .button {
+    font-size:0;
+  }
+
+  .navbar {
+    flex-direction:column;
+    padding-bottom:2.8rem;
+  }
+
+
+
+}
