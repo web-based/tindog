@@ -285,7 +285,7 @@ body {
     text-align: center;
  }
  .big-heading-two {
-   font-size:2rem;
+   font-size:1.7rem;
  }
 
  .title-image {
@@ -317,7 +317,7 @@ body {
 
 
   .testimonial-text {
-    font-size:1.7rem;
+    font-size:1.5rem;
     line-height: 1.5;
   }
 
@@ -336,25 +336,26 @@ body {
   }
 
   .big-heading {
-    font-size:1.5rem;
+      font-size:1.5rem;
+    }
+
+  .section-heading {
+    font-size: 1.2rem;
   }
 
-.section-heading {
-  font-size: 1.2rem;
-}
+  .testimonial-text {
+    font-size:1rem;
+    line-height: 1.5;
+  }
 
-.testimonial-text {
-  font-size:1rem;
-  line-height: 1.5;
-}
-.button {
-  font-size:0;
-}
+  .button {
+    font-size:0;
+  }
 
-.navbar {
-  flex-direction:column;
-  padding-bottom:2.8rem;
-}
+  .navbar {
+    flex-direction:column;
+    padding-bottom:2.8rem;
+  }
 
 
 
