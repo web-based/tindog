@@ -7,10 +7,15 @@ font-family: 'Roboto', sans-serif;
 body {
   font-family: "Montserrat";
   text-align: center;
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat";
   font-weight: 700;
 }
@@ -45,7 +50,7 @@ p {
 /* Containers */
 
 .container-fluid {
-  padding: 7% 15% ;
+  padding: 7% 15%;
 }
 
 /* Sections */
@@ -66,12 +71,45 @@ p {
 /* Navigation Bar */
 
 .img-logo {
-  width:3rem;
+  width: 3rem;
   /* padding:0 10px; */
 }
 
 .navbar {
   padding-bottom: 4.5rem;
+}
+.dog_icon{
+  font-size: 1.5em;
+  padding-left: .5em;
+}
+
+.next__btn {
+  display: flex;
+  justify-content: center;
+  padding: .8em;
+  /* border: 1px solid rgb(255, 255, 255); */
+  border-radius: 0.25rem;
+  background: #212529;
+  font-weight: bold;
+  width: 30%;
+  margin: auto;
+  color: #fff;
+  align-items: center;
+}
+
+.next__btn:hover {
+  background: rgba(255, 255, 255, 0.861);
+  color: #212529;
+  border: 1px solid #212529;
+  /* border: none; */
+  /* transform: scale(1.5); */
+}
+
+.next__btn:active {
+  background: #ff4c68;
+  color: #212529;
+  transform: scale(1.5);
+  border: none;
 }
 
 .navbar-brand {
@@ -89,7 +127,7 @@ p {
 .nav-link {
   font-size: 1.5rem;
   font-family: 'Montserrat';
-  font-weight:300;
+  font-weight: 300;
 }
 
 /* Buttons */
@@ -99,7 +137,7 @@ p {
 }
 
 .scrollToTopBtn a {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .scrollToTopBtn {
@@ -108,14 +146,14 @@ p {
   font-size: 1.5rem;
   line-height: 35px;
   width: 48px;
-  margin:3% auto;
-  display:block;
+  margin: 3% auto;
+  display: block;
 }
 
 /* Title Section */
 
 #title .container-fluid {
-  padding:3% 15% 7%;
+  padding: 3% 15% 7%;
 }
 
 /* Title Image */
@@ -123,22 +161,40 @@ p {
 .title-image {
   width: 20%;
   transform: rotate(25deg);
-  position:absolute;
-  right:25%;
+  position: absolute;
+  right: 25%;
 }
 
 /* Feature Section */
 
 #features {
-  position:relative;
+  position: relative;
 }
 
-/* .feature-title {
-  font-size: 1.5rem;
-} */
 
 .feature-box {
   padding: 4.5%;
+}
+
+.image {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/69/Funny_dog.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  margin: auto;
+
+}
+
+.api_div {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(auto, 1fr));
+}
+
+
+.api-icon:hover {
+  color: #fff;
+
 }
 
 .icon {
@@ -154,12 +210,12 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color:#fff;
+  color: #fff;
 
 }
 
 .testimonial-text {
-  font-size:3rem;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
@@ -179,15 +235,9 @@ p {
   margin: 20px 20px 50px;
 }
 
-/* Pricing Section*/
-
-/* #pricing {
-  padding: 100px;
-} */
 
 .price-text {
-  /* font-size:3rem; */
-  line-height:1.5;
+  line-height: 1.5;
 }
 
 .pricing-column {
@@ -197,55 +247,55 @@ p {
 /* Footer Section  */
 
 .social-icon {
-  margin:20px 10px;
+  margin: 20px 10px;
 }
 
 /* @media Breaks */
 
 @media screen and (max-width:1267px) {
   .title-image {
-    width:18%;
-    position:absolute;
-    right:22%;
+    width: 18%;
+    position: absolute;
+    right: 22%;
   }
 
   .testimonial-text {
-    font-size:2.5rem;
+    font-size: 2.5rem;
     line-height: 1.5;
   }
 
-body {
-  font-size:1rem;
-}
+  body {
+    font-size: 1rem;
+  }
 
-.big-heading {
-  font-family: "Montserrat";
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
-  text-align: left;
-}
+  .big-heading {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: left;
+  }
 
-.big-heading-two {
-  font-family: "Montserrat";
-  font-size: 2.8rem;
-  line-height: 1.5;
-  font-weight: 900;
-  text-align: center;
-}
+  .big-heading-two {
+    font-family: "Montserrat";
+    font-size: 2.8rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: center;
+  }
 
-.section-heading {
-  font-size: 2.5rem;
-  line-height: 1.5;
-}
+  .section-heading {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
 
 }
 
 @media screen and (max-width:1011px) {
   .title-image {
-    width:25%;
-    position:absolute;
-    right:22%;
+    width: 25%;
+    position: absolute;
+    right: 22%;
   }
 
   .big-heading {
@@ -256,17 +306,17 @@ body {
     text-align: center;
   }
 
- .col-lg-6 {
-   text-align:center;
- }
+  .col-lg-6 {
+    text-align: center;
+  }
 
 }
 
 @media screen and (max-width:991px) {
   .title-image {
-    width:40%;
-    position:relative;
-    right:0%;
+    width: 40%;
+    position: relative;
+    right: 0%;
     transform: rotate(0);
   }
 }
@@ -274,7 +324,7 @@ body {
 
 @media screen and (max-width:770px) {
   .title-image {
-    text-align:center;
+    text-align: center;
   }
 
   .col-lg-6 {
@@ -283,41 +333,42 @@ body {
 
   .big-heading {
     text-align: center;
- }
- .big-heading-two {
-   font-size:2rem;
- }
-
- .title-image {
-   width:70%;
-   position:relative;
-   right:-1%;
- }
-
   }
 
-  @media screen and (max-width:500px) {
-    .big-heading {
-      font-size:2rem;
-    }
-
-    .testimonial-text {
-      font-size:2rem;
-      line-height: 1.5;
-    }
-
-    .section-heading {
-      font-size: 2rem;
-      line-height: 1.5;
-    }
-
+  .big-heading-two {
+    font-size: 2rem;
   }
+
+  .title-image {
+    width: 70%;
+    position: relative;
+    right: -1%;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .big-heading {
+    font-size: 2rem;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+}
 
 @media screen and (max-width:481px) {
 
 
   .testimonial-text {
-    font-size:1.7rem;
+    font-size: 1.7rem;
     line-height: 1.5;
   }
 
@@ -325,36 +376,38 @@ body {
 
 @media screen and (max-width:350px) {
   .navbar {
-    flex-direction:column;
-    padding-bottom:2.8rem;
+    flex-direction: column;
+    padding-bottom: 2.8rem;
   }
+}
 
 
 @media screen and (max-width:320px) {
   .big-heading-two {
-    font-size:1.2rem;
+    font-size: 1.2rem;
   }
 
   .big-heading {
-    font-size:1.5rem;
+    font-size: 1.5rem;
   }
 
-.section-heading {
-  font-size: 1.2rem;
-}
+  .section-heading {
+    font-size: 1.2rem;
+  }
 
-.testimonial-text {
-  font-size:1rem;
-  line-height: 1.5;
-}
-.button {
-  font-size:0;
-}
+  .testimonial-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 
-.navbar {
-  flex-direction:column;
-  padding-bottom:2.8rem;
-}
+  .button {
+    font-size: 0;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding-bottom: 2.8rem;
+  }
 
 
 
